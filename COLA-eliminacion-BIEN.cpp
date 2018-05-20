@@ -1,13 +1,13 @@
 #include <iostream>
 using namespace std;
-class Cola{
-	public:
+class Cola{       //editandp el codigo
+	public:				 //editandp el codigo
 		int i;
 		Cola *n;
-		Cola *s;
+		Cola *s;			 //editandp el codigo
 	Cola(){
-		i=0;
-		s=NULL;
+		i=0;				 //editandp el codigo
+		s=NULL;			 //editandp el codigo
 	}
 	void armarCola();
 	void mostrarCola(Cola*);
@@ -18,7 +18,7 @@ void Cola::armarCola(){
 	cout<<"****COLA****"<<endl;
 	Cola *a;
 	int b;
-	cout<<"Ingresa el tamaño"<<endl;
+	cout<<"Ingresa el tamaÃ±o"<<endl;
 	cin>>b;
 	int max=0;
 	Cola *aux=NULL;
